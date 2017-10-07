@@ -1,0 +1,102 @@
+/*
+Error: Undefined variable: "$input-btn-border-width".
+        on line 98 of _dev/css/partials/_commons.scss
+        from line 4 of _dev/css/theme.scss
+
+93:       height: 3rem;
+94:       padding: 0.75rem;
+95:       margin-left: 0.9375rem;
+96:       text-align: center;
+97:       white-space: nowrap;
+98:       a {
+99:         color: $gray;
+100:         &:hover {
+101:           color: $brand-primary;
+102:         }
+103:       }
+
+Backtrace:
+_dev/css/partials/_commons.scss:98
+_dev/css/theme.scss:4
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/script/tree/list_literal.rb:75:in `map'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `map'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:88:in `block in with_import'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:88:in `with_import'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/mbodnar/.rvm/gems/ruby-2.4.1@global/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$input-btn-border-width\".\A         on line 98 of _dev/css/partials/_commons.scss\A         from line 4 of _dev/css/theme.scss\A \A 93:       height: 3rem;\A 94:       padding: 0.75rem;\A 95:       margin-left: 0.9375rem;\A 96:       text-align: center;\A 97:       white-space: nowrap;\A 98:       a {\A 99:         color: $gray;\A 100:         &:hover {\A 101:           color: $brand-primary;\A 102:         }\A 103:       }"; }

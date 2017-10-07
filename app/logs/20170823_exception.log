@@ -1,0 +1,1 @@
+*ERROR* 	v1.7.2.1	2017/08/23 - 05:44:32: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php

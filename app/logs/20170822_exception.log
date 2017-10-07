@@ -1,0 +1,11 @@
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:47:46: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:47:46: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:47:46: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:47:46: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:47:46: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:47:57: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:48:11: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:48:15: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:48:51: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 06:48:59: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.1	2017/08/22 - 15:13:08: Link to database cannot be established:SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111) at line 102 in file classes/db/DbPDO.php

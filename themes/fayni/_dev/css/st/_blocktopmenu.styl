@@ -1,0 +1,47 @@
+.menu
+  float left
+  padding-left: 10px
+  width: 100%
+  background-color: brown
+  margin-bottom: 10px
+  border-radius: 5px
+  box-shadow: 2px 2px 5px grey
+
+  a, a:visited
+    text-decoration none
+    color white
+    font-size 1em
+    padding small-padding
+    display block
+
+  a:hover, li.current > a
+    background-color brown-lighter
+    color highlighted-color
+
+  > ul > li // top level
+    display inline-block
+    vertical-align top
+    &:not(:first-child)
+      border-left 1px solid brown
+    > a
+      background-color brown
+    > div
+      border 1px solid border-color
+      display none
+      position absolute
+      z-index 1337
+      background-color brown
+    &:hover > div
+      display block
+
+  li
+    list-style none
+
+  ul
+    margin 0
+//    display: inline
+    &[data-depth="0"], &[data-depth="1"]
+      padding 0px
+  a.home
+    display: inline-block
+    float: left
